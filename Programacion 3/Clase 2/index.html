@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pagina AFIP</title>
+</head>
+<body>
+    <form>      
+        <h3>Ingresar con Clave Fiscal</h3>
+    <p>Nombre y Apellido</p>
+        <input type="text" placeholder="Nombre y Apellido">
+        <p>CUIT/CUIL</p>
+        <input type="number" maxlength="11" placeholder="CUIT/CUIL">
+        <p>Contraseña:</p>
+        <input type="password" placeholder="Contraseña">
+       
+       <div>
+        <input type="checkbox">
+        <span>Mantenerse logueado</span>
+       </div>
+      <div>
+        <h3>Seleccione un Servicio</h3>
+        <input type="radio" name="Servicio" value="0"><span>Portal</span>
+        <input type="radio" name="Servicio" value="1" checked="true"><span>Monotributo</span>
+        <input type="radio" name="Servicio" value="2"><span>Otro</span>
+      </div>  
+        <div>
+            <h3>Seleccione un articulo</h3>
+            <select name="Tipo" >
+
+                <option name="Tipo" value="0">Pan</option>
+                <option name="Tipo"value="1">Queso</option>
+                <option name="Tipo"value="2">Otro</option>
+            </select>
+            <p><input type="submit" value="Siguiente"></p> 
+        </div>
+
+        <textarea cols="25" rows="2"></textarea>
+
+        <p><input type="file" name="" id="">
+        </form> </p>
+</body>
+</html>

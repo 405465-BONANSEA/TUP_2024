@@ -1,0 +1,17 @@
+.parrafo_href{
+    color: black;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    font: 1em sans-serif;
+    font-size: small;
+    width: 100px;
+    height: 25px;
+    
+}
+#parrafo_href_ {
+    color: blue;
+}
+
