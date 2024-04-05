@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e17cafa-71b0-431f-8c17-7f0584b5183d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programacion 3/Clase 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programacion 3/Clase 2/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3e17cafa-71b0-431f-8c17-7f0584b5183d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +46,7 @@
       <updated>1712276052341</updated>
       <workItem from="1712276053319" duration="150000" />
       <workItem from="1712279027132" duration="3000" />
+      <workItem from="1712333638635" duration="33000" />
     </task>
     <servers />
   </component>
@@ -60,7 +58,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>7</line>
+          <line>27</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
