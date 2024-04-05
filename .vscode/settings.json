@@ -1,5 +1,10 @@
 {
-    "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "java.project.sourcePaths": [
+    "Laboratorio 3/Clase 2/Pruebas/src",
+    "Laboratorio 3/Clase 2/Clase2/src",
+    "Laboratorio 3/Clase 2/Clase2.1/src/main/java/org/example"
+  ]
 }
