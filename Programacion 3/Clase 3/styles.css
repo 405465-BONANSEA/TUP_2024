@@ -1,0 +1,94 @@
+body{
+    background-color: #000;
+    --light-blue:#139ed9;
+}
+
+.form{
+    background-color: #f2f2f2;
+    padding: 24px;
+    width: 343px;
+    height: 420px;
+    border-radius: 8px;
+}
+
+.form label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input[type=text]{
+    display: block;
+    padding: 4px 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    height: 30px;
+    width: 304px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.form input[type=text]:focus{
+    border-color:var(--light-blue)
+}
+
+.form button{
+    padding: 4px 16px;
+    color: #fff;
+    margin: 16px 0;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button.primary{
+    background-color: #139ed9;
+    color: #fff;
+    border: 1px solid #139ed9;
+}
+
+.form button.secondary{
+    background-color: #fff;
+    color: #139ed9;
+    border: 1px solid #139ed9;
+}
+
+.form button.primary:hover{
+    background-color: #0070A7;
+    cursor: pointer;
+
+}
+.form button.secondary:hover{
+    background-color: #ccc;
+    cursor: pointer;
+
+}
+.form a{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.form a:hover{
+    color: #13d934;
+    cursor: pointer;
+}
+.form .separator{
+    height: 1px;
+    background-color: #ddd;
+}
+h4{
+    font-size: 26px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
