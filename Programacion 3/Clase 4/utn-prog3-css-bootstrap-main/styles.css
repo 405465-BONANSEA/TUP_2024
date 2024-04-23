@@ -75,7 +75,7 @@ body {
 .form .separator {
     height: 1px;
     background-color: #ddd;
-    /* border-top: 1px solid #ddd; */
+    border-top: 1px solid #ddd; 
 }
 
 h4 {

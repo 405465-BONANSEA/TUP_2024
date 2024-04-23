@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="javascript:alert('hola')">JS Inline</button>
+    <button onclick="saludo()">JS desde Tag</button>
+    <button onclick="mensaje('mensajito')">JS desde Archivo</button>
+
+    <button onclick="modificarCajaTexto('nuevo texto')">Modificar Caja texto</button>
+
+    <input type="text" id="caja">
+
+    <script>
+        console.log("este es mi log")
+        const miConstante = "Hola";
+
+        try {
+            miConstante = "Chau"
+        } catch (err) {
+            console.error(err)
+        }
+        console.log("Valor constante", miConstante)
+
+        if (true) {
+            var miVariableVar = "variable VAR"
+            let miVariableLet = "variable LET"
+            console.log("Variable LET: ", miVariableLet)
+        }
+
+        console.log("Variable VAR: ", miVariableVar)
+        // console.log("Variable LET: ", miVariableLet)
+
+        function saludo() {
+            alert('hola desde funcion')
+        }
+    </script>
+    <script>
+        let objeto = {
+            id: 1,
+            name: "Nombre"
+        }
+
+        console.log("mi objeto", objeto)
+
+        const arreglo = [
+            1,
+            "aseqwew",
+            true,
+            {
+                id: 1
+            }
+        ]
+
+        console.log("arreglo", arreglo)
+
+        for (let index = 0; 
+            index < arreglo.length; 
+            index++) {
+            console.log("Valor en [", index, "] igual a :", arreglo[index])
+        }
+    </script>
+    <script>
+        function obtenerBotones() {
+            const botones = document.getElementsByTagName("button");
+            for (let index = 0; index < botones.length; index++) {
+                const boton = botones[index];
+                console.log(boton)
+            }
+        }
+
+        obtenerBotones()
+    </script>
+    <script>
+        function modificarCajaTexto(nuevoValor) {
+            const input = document.getElementById("caja")
+        
+            input.value = nuevoValor
+        }
+    </script>
+    <script src="ejemplo.js"></script>
+</body>
+</html>
