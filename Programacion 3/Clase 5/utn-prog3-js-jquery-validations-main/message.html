@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Formulario enviado
+
+    <div id="message"></div>
+    <script>
+        const params = new URLSearchParams(window.location.search)
+
+        alert("Valores query string: " +
+            "\nemail: " + params.get("email") +
+            "\nclave: " + params.get("clave") +
+            "\nservicio: " + params.get("serviceId") 
+        )
+
+        const message = document.getElementById(
+            "message"
+        )
+
+        message.innerText = localStorage.getItem(
+            "email"
+        )
+    </script>
+</body>
+</html>

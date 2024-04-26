@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <form
+            onsubmit="sendForm(event)"
+            action="message.html" 
+            method="get" 
+            class="row g-3" 
+            novalidate>
+            <div class="col-12">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" name="email">
+            </div>
+            <div class="col-12">
+              <label for="inputPassword" class="form-label">Clave</label>
+              <input type="password" class="form-control" id="inputPassword" name="clave">
+            </div>
+            <div class="col-12">
+              <label for="inputService" class="form-label">Servicio</label>
+              <select id="inputService" class="form-select" name="serviceId">
+                <option value="" selected>Seleccione...</option>
+                <option value="1">Web</option>
+                <option value="2">Movil</option>
+              </select>
+              <div class="invalid-feedback">
+                Seleccione un servicio.
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+          </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        // manejar el evento onSubmit desde javascript descomentar hasta linea 50 y borrar el evento onSubmit del formulario
+
+        // obtengo el primer elemento
+        // const form = document.getElementsByTagName(
+        //     "form"
+        // )[0] 
+
+        // form.addEventListener("submit", sendForm)
+
+        function sendForm(e) {
+            const email = document.getElementById("inputEmail")
+            // console.log(email)
+            // console.log("Valor email", email.value)
+            if (email.value == "") {
+                alert("el email está vacio")
+                e.preventDefault() 
+                return 
+            }
+            if (email.value.indexOf("@") == -1) {
+                alert("el email no es valido")
+                e.preventDefault() // Previene que se haga submit del formulario
+                return
+            }
+            if (email.value.length < 9) {
+                alert("el email debe tener al menos 8 caracteres")
+                e.preventDefault() // Previene que se haga submit del formulario
+                return
+            }
+
+            const service = document.getElementById(
+                "inputService"
+            )
+
+            if (service.value == "") {
+                const serviceAlert = service.nextElementSibling;
+                serviceAlert.style.display = "block"
+                e.preventDefault() // Previene que se haga submit del formulario
+                return
+            }
+        }
+    </script>
+  </body>
+</html>

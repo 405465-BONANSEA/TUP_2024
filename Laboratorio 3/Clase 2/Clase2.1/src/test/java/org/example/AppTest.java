@@ -36,3 +36,30 @@ public class AppTest
         assertTrue( true );
     }
 }
+package org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+public class AppTest extends TestCase {
+
+    public AppTest(String testName) {
+        super(testName);
+    }
+
+    public static Test suite() {
+        return new TestSuite(AppTest.class);
+    }
+
+    public void testApp() {
+        assertTrue(true);
+    }
+
+    public void testGetPrice() {
+        double price = 10.0;
+        double expectedPriceWithVat = 12.1;
+        double actualPriceWithVat = App.getPrice(price);
+        assertEquals(expectedPriceWithVat, actualPriceWithVat);
+    }
+}
