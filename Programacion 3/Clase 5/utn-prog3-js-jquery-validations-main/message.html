@@ -9,13 +9,11 @@
     Formulario enviado
 
     <div id="message"></div>
-    <script>
-        const params = new URLSearchParams(window.location.search)
+    <div id="message2"></div>
 
-        alert("Valores query string: " +
-            "\nemail: " + params.get("email") +
-            "\nclave: " + params.get("clave") +
-            "\nservicio: " + params.get("serviceId") 
+    <script>
+        const params = new URLSearchParams(
+            window.location.search
         )
 
         const message = document.getElementById(
@@ -24,6 +22,13 @@
 
         message.innerText = localStorage.getItem(
             "email"
+        )
+        const message2 = document.getElementById(
+            "message2"
+        )
+
+        message2.innerText = localStorage.getItem(
+            "password"
         )
     </script>
 </body>
