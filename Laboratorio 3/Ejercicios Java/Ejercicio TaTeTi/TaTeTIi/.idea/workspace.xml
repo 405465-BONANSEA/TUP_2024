@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab62f78e-9b41-4a34-b1b7-89d93879cd7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Ejercicio TaTeTi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/BoardSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/BotPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/GameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/HumanPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/PlayStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Test Estanciero/EstancieroTest/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Programacion 3/Ejercicios Classroom/pre-exam-practice-mateobonansea.rar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2g3qid3JPX7YdQtMMFlSfCUnkr2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Debug",
+    "JUnit.AppTest.testMarcar.executor": "Run",
+    "JUnit.AppTest.testVerificarGanador.executor": "Run",
+    "JUnit.AppTest.testVerificarPosicion.executor": "Run",
+    "JUnit.AppTest.testVerificarPosicion2.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mateo/Documents/GitHub/TUP_2024/Laboratorio 3/Ejercicios Java/test batalla naval",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaTeTIi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testMarcar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaTeTIi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testMarcar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testVerificarGanador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaTeTIi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testVerificarGanador" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testVerificarPosicion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaTeTIi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testVerificarPosicion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testVerificarPosicion2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaTeTIi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testVerificarPosicion2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testVerificarGanador" />
+        <item itemvalue="JUnit.AppTest.testVerificarPosicion" />
+        <item itemvalue="JUnit.AppTest.testVerificarPosicion2" />
+        <item itemvalue="JUnit.AppTest.testMarcar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab62f78e-9b41-4a34-b1b7-89d93879cd7d" name="Changes" comment="" />
+      <created>1714936740237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714936740237</updated>
+      <workItem from="1714936741245" duration="9758000" />
+      <workItem from="1715030533804" duration="293000" />
+      <workItem from="1715030830526" duration="1212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

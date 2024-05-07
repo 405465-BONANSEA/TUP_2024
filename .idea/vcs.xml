@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programacion 3/Ejercicios Classroom/javascript-jquery-practice-mateobonansea" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Programacion 3/Ejercicios Classroom/pre-exam-practice-mateobonansea" vcs="Git" />
   </component>
 </project>

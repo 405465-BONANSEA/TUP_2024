@@ -6,5 +6,8 @@
     "Laboratorio 3/Clase 2/Pruebas/src",
     "Laboratorio 3/Clase 2/Clase2/src",
     "Laboratorio 3/Clase 2/Clase2.1/src/main/java/org/example"
-  ]
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
