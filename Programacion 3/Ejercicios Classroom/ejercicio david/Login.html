@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .is-invalid {
+            color: red;
+        }
+        .valid-input {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="container p-3 border border-secondary rounded">
+            <div class="col-12 pt-3 d-flex justify-content-center"">
+                <form method="get" class="row g-3" novalidate>
+                    <h1 class="text-center">Alta de Huespedes</h1>
+                    <div class="col-6">
+                        <div class="form-label" for="inputNombre">Nombre: </div>
+                          <input type="name" id="inputNombre" name="nombre" class="form-control" placeholder="Ingrese el nombre">
+                    </div>
+                    <div class="col-6">
+                        <div class="form-label" for="inputApellido">Apellido: </div>
+                          <input type="surname" id="inputApellido" name="apellido" class="form-control" placeholder="Ingrese el apellido">
+                    </div>
+                    <div class="col-12 pt-3 d-flex justify-content-center">
+                        <div class="col-1">
+                         <label class="form-label"  style="text-align: left" for="inputPiso">Piso: </label>
+                        </div>
+                         <div class="radioGroup" id="inputPiso">
+                             <div class="form-check form-check-inline">
+                                 <label class="form-label"  for="Primero">Primero</label>
+                                 <input type="radio" id="Primero" name="piso" class="form-check-input">
+                            </div>
+                            <div class="form-check form-check-inline">
+                                 <label class="form-label"  for="Segundo">Segundo</label>
+                                 <input type="radio" id="Segundo" name="piso" class="form-check-input">
+                            </div>
+                            <div class="form-check form-check-inline">
+                                 <label class="form-label"  for="Tercero">Tercero</label>
+                                 <input type="radio" id="Tercero" name="piso" class="form-check-input">
+                            </div>
+                            <div class="form-check form-check-inline">
+                                 <label class="form-label"  for="Cuarto">Cuarto</label>
+                                 <input type="radio" id="Cuarto" name="piso" class="form-check-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">     
+                            <div class="form-label" for="inputEmail">Email: </div>
+                              <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Ingrese un email con @ ">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-label" for="inputClave">Clave: </div>
+                          <input type="password" id="inputClave" name="clave" class="form-control" placeholder="Ingrese una contraseña">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-label" for="inputConfirmarClave">Confirmar Clave: </div>
+                          <input type="password" id="inputConfirmarClave" name="confirmarClave" class="form-control" placeholder="Ingrese la misma contraseña">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-label" for="inputFecha">Fecha de Nacimiento: </div>
+                        <input type="date" id="inputFecha" name="fecha" class="form-control" placeholder="dd-mm-yyyy">
+                    </div>
+                    <div class="col-6">
+                        <div class="input group">
+                        <div class="form-label" for="inputPais">Pais: </div>
+                        <select class="form-select" id="inputPais" name="pais">
+                            <option selected value="">Seleccione un pais...</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Uruguay">Uruguay</option>
+                    </select>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                        
+                          <div class="input-group-prepend">
+                            <div class="form-label" for="inputProvincia">Provincia: </div>
+                        </div>
+                          <select class="form-select" id="inputProvincia" name="provincia"></select>
+                            <option value=""></option>
+                          </select>       
+                        </div>
+                        <div class="col-6">
+                            <div class="form-label" for="inputCelular">Numero de telefono/celular:  </div>
+                              <input type="tel" id="inputCelular" name="celular" class="form-control" placeholder="Ingrese un numero de telefono">
+                        </div>
+                        <div class="col-6">
+                            <label for="inputObservaciones" class="form-label">Observaciones:</label>
+                            <textarea class="form-control" id="inputObservaciones" name="observaciones" rows="4"></textarea>
+                        </div>
+                        <div></div>
+                            <button type="submit" class="btn btn-success mt-3">Enviar</button>
+                        
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+</body>
+<script>
+    $(document).ready(function () {
+
+        $.validator.addMethod('validator', function(value, element) {
+    let digitCount = (value.match(/\d/g) || []).length; 
+    return this.optional(element) || /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@!%*?&\\.])[A-Za-z\d$@!%*?&\\.]{10,}$/.test(value)
+    && digitCount >= 2;
+}, 'La clave debe tener al menos una mayúscula, una minúscula, y dos números, y un caracter especial');
+        
+
+        $('form').validate({
+            errorClass: 'is-invalid',
+            validClass: 'is-valid',
+            highlight: function(element, errorClass, validClass) {
+                $(element).removeClass(validClass).addClass(errorClass);
+            },
+            unhighlight: function(element, errorClass, validClass) {
+                $(element).removeClass(errorClass).addClass(validClass);
+            },
+            rules: {
+                nombre: {
+                    required: true,
+                    minlength: 3,
+                    maxlength: 30
+                },
+                apellido: {
+                    required: true,
+                    minlength: 3,
+                    maxlength: 50
+
+                },
+                piso: {
+                    required: true,
+                    
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                clave: {
+                    required: true,
+                    minlength: 10,
+                    validator: true
+                },
+                confirmarClave: {
+                    required: true,
+                    equalTo: '#inputClave'
+                },
+                fecha: {
+                    required: true
+                },
+                pais: {
+                    required: true
+                },
+                celular: {
+                    required: true,
+                    number: true
+                }
+            },
+            messages: {
+                nombre: {
+                    required: 'El nombre es requerido',
+                    minlength: 'El nombre debe tener al menos 5 caracteres',
+                    maxlength: 'El nombre debe tener maximo 30 caracteres'
+                },
+                apellido: {
+                    required: 'El apellido es requerido',
+                    minlength: 'El apellido debe tener al menos 3 caracteres'
+                },
+                piso: {
+                    required: 'El piso es requerido',
+                    
+                },
+                email: {
+                    required: 'El email es requerido',
+                    email: 'El email debe ser válido'
+                },
+                clave: {
+                    required: 'La clave es requerida',
+                    minlength: 'La clave debe tener al menos 10 caracteres',
+                    validator: 'La clave debe tener al menos una mayúscula, una minúscula, y dos números, y un caracter especial'
+                },
+                confirmarClave: {
+                    required: 'La confirmación de la clave es requerida',
+                    equalTo: 'Las claves no coinciden'
+                },
+                fecha: {
+                    required: 'La fecha de nacimiento es requerida'
+                },
+                pais: {
+                    required: 'El pais es requerido'
+                },
+                provincia: {
+                    required: 'La provincia es requerida'
+                },
+                celular: {
+                    required: 'El celular es requerido',
+                    number: 'El celular debe ser un número'
+                }
+            }, 
+                    errorPlacement: function(error, element) {
+                if (element.attr("type") == "radio") {
+                    error.insertAfter('.radioGroup');
+                } else {
+                    error.insertAfter(element);
+                }
+            },
+            
+
+            submitHandler: function (form) {
+                form.submit();
+            }
+        });
+        
+        $('#inputPais').change(function () {
+            let pais = $(this).val();
+            let provincias = {
+                "":[],
+                Argentina: ["Buenos Aires", "Cordoba", "Santa Fe"],
+                Chile: ["Santiago", "Valparaiso", "Concepcion"],
+                Uruguay: ["Montevideo", "Canelones", "Maldonado"]
+            }
+        
+
+            let provinciasOptions= '<option value="">Seleccione una provincia...</option>';
+            provincias[pais].forEach(function(provincias) 
+                {
+                provinciasOptions += '<option value=" ' + provincias + ' "> ' + provincias + ' </option>';
+        
+             $('#inputProvincia').html(provinciasOptions);
+            });
+        });
+
+        $('form').on('submit', function() {
+            $(this).validate().form();
+        });
+        
+        });
+    
+
+
+
+
+
+</script>
+
+</html>
