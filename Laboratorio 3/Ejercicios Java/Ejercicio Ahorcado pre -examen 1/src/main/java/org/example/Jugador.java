@@ -1,4 +1,4 @@
-package ar.edu.utn.frc.tup.lciii;
+package org.example;
 
 public class Jugador {
 

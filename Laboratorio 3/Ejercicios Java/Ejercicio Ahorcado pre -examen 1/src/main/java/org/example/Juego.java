@@ -1,4 +1,4 @@
-package ar.edu.utn.frc.tup.lciii;
+package org.example;
 
 import java.util.ArrayList;
 import java.util.Arrays;
