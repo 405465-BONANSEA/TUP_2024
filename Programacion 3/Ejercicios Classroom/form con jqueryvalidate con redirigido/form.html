@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .error {
+      color: red;
+      font-size: 14px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container pt-2">
+    <div class="row justify-content-center">
+      <h1 class="h1 pt-2">Formulario</h1>
+
+
+      <form action="envio.html" method="get" class="row g-3" novalidate>
+
+        <div class="col-md-6">
+          <label for="inputNombre" class="form-label">Nombre:</label>
+          <input type="name" class="form-control" id="inputNombre" name="nombre" placeholder="Nombre" required
+            maxlength="100"></input>
+        </div>
+        <div class="col-md-6 ">
+          <label for="inputApellido" class="form-label">Apellido:</label>
+          <input type="surname" class="form-control" id="inputApellido" name="apellido" placeholder="Apellido" required
+            maxlength="100" required minlength="2"></input>
+        </div>
+        <div class="col-md-12 p-3">
+          <label for="inputNivelEducativo" class="form-label">Nivel Educativo:</label>
+          <div id="inputNivelEducativo" class="radioGroup">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="nivel_educativo" id="primario" value="primario">
+              <label class="form-check-label" for="primario">
+                Primaria
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="nivel_educativo" id="secundario" value="secundario">
+              <label class="form-check-label" for="secundario">
+                Secundario
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="nivel_educativo" id="terceario" value="terceario">
+              <label class="form-check-label" for="terceario">
+                Terceario
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="nivel_educativo" id="universitario"
+                value="universitario">
+              <label class="form-check-label" for="universitario">
+                Universitario
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="pais">Pais</label>
+            </div>
+            <select class="select w-50" id="pais" name="pais">
+              <option selected value="">Selecciona un pais...</option>
+              <option value="argentina">Argentina</option>
+              <option value="chile">Chile</option>
+              <option value="brasil">Brasil</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="provincia">Provincia</label>
+            </div>
+            <select class="select w-50" id="provincia" name="provincia"></select>
+            <option value=""></option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <label for="inputObservaciones" class="form-label">Observaciones:</label>
+          <textarea class="form-control" id="inputObservaciones" name="observaciones" rows="4"></textarea>
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+      <button type="submit" class="btn btn-primary">Ingresar</button>
+    </div>
+    </form>
+  </div>
+  </div>
+  <div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#pais').change(function () {
+        let pais = $(this).val();
+        let provincias = {
+          "": [],
+          argentina: [
+        "Buenos Aires",
+        "Catamarca",
+        "Chaco",
+        "Chubut",
+        "Córdoba",
+        "Corrientes",
+        "Entre Ríos",
+        "Formosa",
+        "Jujuy",
+        "La Pampa",
+        "La Rioja",
+        "Mendoza",
+        "Misiones",
+        "Neuquén",
+        "Río Negro",
+        "Salta",
+        "San Juan",
+        "San Luis",
+        "Santa Cruz",
+        "Santa Fe",
+        "Santiago del Estero",
+        "Tierra del Fuego",
+        "Tucumán"
+    ],
+          chile: ['Santiago', 'Valparaíso', 'Concepción'],
+          brasil: ['Sao Paulo', 'Rio de Janeiro', 'Florianopolis']
+        };
+
+        let provinciasOptions = '<option value="">Selecciona una provincia...</option>';
+        provincias[pais].forEach(function (provincia) {
+          //foreach (provincia in provincias[pais])
+          provinciasOptions += '<option value="' + provincia + '">' + provincia + '</option>';
+        });
+
+        $('#provincia').html(provinciasOptions);
+      });
+
+      $('form').validate({
+        rules: {
+          nombre: {
+            required: true,
+            maxlength: 100
+          },
+          apellido: {
+            required: true,
+            minlength: 2,
+            maxlength: 100
+          },
+          nivel_educativo: {
+            required: true
+          },
+          pais: {
+            required: true,
+            indexGreaterThanZero: true
+          },
+          provincia: {
+            required: true,
+            indexGreaterThanZero: true
+          }
+
+        },
+        messages: {
+          nombre: {
+            required: 'Por favor, ingresa tu nombre',
+          },
+          apellido: {
+            required: 'Por favor, ingresa tu apellido',
+            minlength: 'El apellido debe tener al menos 2 caracteres',
+          },
+          nivel_educativo: {
+            required: 'Por favor, selecciona tu nivel educativo'
+          },
+          pais: {
+            required: 'Por favor, selecciona tu país',
+            indexGreaterThanZero: 'Por favor, selecciona tu país'
+          },
+          provincia: {
+            required: 'Por favor, selecciona tu provincia',
+            indexGreaterThanZero: 'Por favor, selecciona tu provincia'
+          }
+        },
+        errorPlacement: function (error, element) {
+          if (element.attr("type") == "radio") {
+            error.insertAfter('.radioGroup');
+          } else {
+            error.insertAfter(element);
+          }
+        },
+
+
+        submitHandler: function (form) {
+          const nombre = $("#inputNombre").val();
+          localStorage.setItem("nombre", nombre);
+          const apellido = $("#inputApellido").val();
+          localStorage.setItem("apellido", apellido);
+          const nivel_educativo = $('input[name="nivel_educativo"]:checked').val();
+          localStorage.setItem("nivel_educativo", nivel_educativo);
+          const pais = $("#pais").val();
+          localStorage.setItem("pais", pais);
+          const provincia = $("#provincia").val();
+          localStorage.setItem("provincia", provincia);
+          const observaciones = $("#inputObservaciones").val();
+          localStorage.setItem("observaciones", observaciones);
+          window.location.href = "envio.html";
+          form.submit();
+        }
+      });
+
+      $.validator.addMethod("indexGreaterThanZero", function (value, element) {
+        return element.selectedIndex > 0;
+      },);
+    });
+  </script>
+
+</body>
+
+</html>
