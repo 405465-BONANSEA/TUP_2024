@@ -10,24 +10,99 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gZKlEKvL75xf6q003sRd68gDa4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mateo/Downloads/Parcial - La escoba de 15",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mateo/Downloads/Parcial - La escoba de 15&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.HumanRoundPlayerTest">
+    <configuration name="AppRoundPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen-escoba-15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.utn.frc.tup.lciii.round.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.utn.frc.tup.lciii.round" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.utn.frc.tup.lciii.round.AppRoundPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscobaGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen-escoba-15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.utn.frc.tup.lciii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.utn.frc.tup.lciii" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.utn.frc.tup.lciii.EscobaGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscobaMatchRoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen-escoba-15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.utn.frc.tup.lciii.round.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.utn.frc.tup.lciii.round" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.utn.frc.tup.lciii.round.EscobaMatchRoundTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscobaMatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen-escoba-15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.utn.frc.tup.lciii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.utn.frc.tup.lciii" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.utn.frc.tup.lciii.EscobaMatchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanRoundPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen-escoba-15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.utn.frc.tup.lciii.round.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.utn.frc.tup.lciii.round" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.utn.frc.tup.lciii.round.HumanRoundPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Parcial - La escoba de 15" />
       <method v="2">
@@ -41,6 +116,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HumanRoundPlayerTest" />
+        <item itemvalue="JUnit.EscobaMatchRoundTest" />
+        <item itemvalue="JUnit.AppRoundPlayerTest" />
+        <item itemvalue="JUnit.EscobaMatchTest" />
+        <item itemvalue="JUnit.EscobaGameTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
