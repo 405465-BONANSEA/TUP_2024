@@ -1,0 +1,200 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: getCardToPlay
+      id: getcardtoplay
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getCardToPlay
+        setup-command: ''
+        command: mvn test -Dtest="HumanRoundPlayerTest" -q
+        timeout: 10
+        max-score: 10
+    - name: selectCardsApp
+      id: selectcardsapp
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: selectCardsApp
+        setup-command: ''
+        command: mvn test -Dtest="AppRoundPlayerTest#selectCardsAppTest*" -q
+        timeout: 10
+        max-score: 10
+    - name: getCardsWithSeven
+      id: getcardswithseven
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getCardsWithSeven
+        setup-command: ''
+        command: mvn test -Dtest="AppRoundPlayerTest#getCardsWithSevenTest" -q
+        timeout: 10
+        max-score: 5
+    - name: getCardsWithEscoba
+      id: getcardswithescoba
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getCardsWithEscoba
+        setup-command: ''
+        command: mvn test -Dtest="AppRoundPlayerTest#getCardsWithEscobaTest" -q
+        timeout: 10
+        max-score: 5
+    - name: getCardsWithSevenOro
+      id: getcardswithsevenoro
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getCardsWithSevenOro
+        setup-command: ''
+        command: mvn test -Dtest="AppRoundPlayerTest#getCardsWithSevenOroTest" -q
+        timeout: 10
+        max-score: 5
+    - name: getCardsWithMoreOros
+      id: getcardswithmoreoros
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getCardsWithMoreOros
+        setup-command: ''
+        command: mvn test -Dtest="AppRoundPlayerTest#getCardsWithMoreOrosTest" -q
+        timeout: 10
+        max-score: 5
+    - name: dealCards
+      id: dealcards
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: dealCards
+        setup-command: ''
+        command: mvn test -Dtest="EscobaMatchRoundTest#dealCardsTest" -q
+        timeout: 10
+        max-score: 5
+    - name: solveSevenWinner
+      id: solvesevenwinner
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: solveSevenWinner
+        setup-command: ''
+        command: mvn test -Dtest="EscobaMatchRoundTest#solveSevenWinnerTest*" -q
+        timeout: 10
+        max-score: 5
+    - name: sevenOroCheck
+      id: sevenorocheck
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: sevenOroCheck
+        setup-command: ''
+        command: mvn test -Dtest="EscobaMatchRoundTest#sevenOroCheckTest" -q
+        timeout: 10
+        max-score: 5
+    - name: createDeck
+      id: createdeck
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: createDeck
+        setup-command: ''
+        command: mvn test -Dtest="DeckTest#createDeckTest" -q
+        timeout: 10
+        max-score: 5
+    - name: isFinish
+      id: isfinish
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: isFinish
+        setup-command: ''
+        command: mvn test -Dtest="EscobaMatchTest#isFinishTest*" -q
+        timeout: 10
+        max-score: 5
+    - name: createDeckTest
+      id: createdecktest
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: createDeckTest
+        setup-command: ''
+        command: mvn test -Dtest="DeckTest#createDeckTest" -q
+        timeout: 10
+        max-score: 5
+    - name: takeCardTest
+      id: takecardtest
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: takeCardTest
+        setup-command: ''
+        command: mvn test -Dtest="DeckTest#takeCardTest" -q
+        timeout: 10
+        max-score: 5
+    - name: isEmptyTest
+      id: isemptytest
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: isEmptyTest
+        setup-command: ''
+        command: mvn test -Dtest="DeckTest#isEmptyTest" -q
+        timeout: 10
+        max-score: 5
+    - name: shuffleDeckTest
+      id: shuffledecktest
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: shuffleDeckTest
+        setup-command: ''
+        command: mvn test -Dtest="DeckTest#shuffleDeckTest" -q
+        timeout: 10
+        max-score: 5
+    - name: getYesNoAnswerTest_YesAnswer
+      id: getyesnoanswertest_yesanswer
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getYesNoAnswerTest_YesAnswer
+        setup-command: ''
+        command: mvn test -Dtest="EscobaGameTest#getYesNoAnswerTest_YesAnswer" -q
+        timeout: 10
+        max-score: 5
+    - name: getYesNoAnswerTest_NoAnswer
+      id: getyesnoanswertest_noanswer
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getYesNoAnswerTest_NoAnswer
+        setup-command: ''
+        command: mvn test -Dtest="EscobaGameTest#getYesNoAnswerTest_NoAnswer" -q
+        timeout: 10
+        max-score: 5
+    - name: getYesNoAnswerTest_NullAnswer
+      id: getyesnoanswertest_nullanswer
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: getYesNoAnswerTest_NullAnswer
+        setup-command: ''
+        command: mvn test -Dtest="EscobaGameTest#getYesNoAnswerTest_NullAnswer" -q
+        timeout: 10
+        max-score: 5
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        GETCARDTOPLAY_RESULTS: "${{steps.getcardtoplay.outputs.result}}"
+        SELECTCARDSAPP_RESULTS: "${{steps.selectcardsapp.outputs.result}}"
+        GETCARDSWITHSEVEN_RESULTS: "${{steps.getcardswithseven.outputs.result}}"
+        GETCARDSWITHESCOBA_RESULTS: "${{steps.getcardswithescoba.outputs.result}}"
+        GETCARDSWITHSEVENORO_RESULTS: "${{steps.getcardswithsevenoro.outputs.result}}"
+        GETCARDSWITHMOREOROS_RESULTS: "${{steps.getcardswithmoreoros.outputs.result}}"
+        DEALCARDS_RESULTS: "${{steps.dealcards.outputs.result}}"
+        SOLVESEVENWINNER_RESULTS: "${{steps.solvesevenwinner.outputs.result}}"
+        SEVENOROCHECK_RESULTS: "${{steps.sevenorocheck.outputs.result}}"
+        CREATEDECK_RESULTS: "${{steps.createdeck.outputs.result}}"
+        ISFINISH_RESULTS: "${{steps.isfinish.outputs.result}}"
+        CREATEDECKTEST_RESULTS: "${{steps.createdecktest.outputs.result}}"
+        TAKECARDTEST_RESULTS: "${{steps.takecardtest.outputs.result}}"
+        ISEMPTYTEST_RESULTS: "${{steps.isemptytest.outputs.result}}"
+        SHUFFLEDECKTEST_RESULTS: "${{steps.shuffledecktest.outputs.result}}"
+        GETYESNOANSWERTEST_YESANSWER_RESULTS: "${{steps.getyesnoanswertest_yesanswer.outputs.result}}"
+        GETYESNOANSWERTEST_NOANSWER_RESULTS: "${{steps.getyesnoanswertest_noanswer.outputs.result}}"
+        GETYESNOANSWERTEST_NULLANSWER_RESULTS: "${{steps.getyesnoanswertest_nullanswer.outputs.result}}"
+      with:
+        runners: getcardtoplay,selectcardsapp,getcardswithseven,getcardswithescoba,getcardswithsevenoro,getcardswithmoreoros,dealcards,solvesevenwinner,sevenorocheck,createdeck,isfinish,createdecktest,takecardtest,isemptytest,shuffledecktest,getyesnoanswertest_yesanswer,getyesnoanswertest_noanswer,getyesnoanswertest_nullanswer
