@@ -9,6 +9,7 @@ class BattleShipGameTest {
     @Test
     void testValidateSunkenFleet() {
         // TODO: Probar este metodo privado
+
     }
 
 }

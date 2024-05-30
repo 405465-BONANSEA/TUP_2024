@@ -9,5 +9,6 @@ class ShipTest {
     @Test
     void testEquals() {
         // TODO: Probar este metodo publico
+
     }
 }
