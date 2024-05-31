@@ -11,6 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//INYECCION DE DEPENDENCIAS ES CUANDO YO PIDO UNA INTERFAZ Y ME RETORNA UNA IMPLEMENTACION DE UN OBJETO
+//INYECCION DE CONTROL ES LA ESPECIFICACION DE CUANDO USO LA IMPLEMENTACION DE UNA CLASE 
+
 //*SE AGREGA A LA INYECCION DE DEPENDENCIAS de ICountry a InMemoryRepository (SI QUERO POR MEMORIA)
 //builder.Services.AddSingleton<ICountryRepository, InMemoryRepository>(); //instancia unica para toda la app
 //builder.Services.AddScoped<ICountryRepository, InMemoryRepository>(); //instancia por ambito, en caso de un controller seria por request

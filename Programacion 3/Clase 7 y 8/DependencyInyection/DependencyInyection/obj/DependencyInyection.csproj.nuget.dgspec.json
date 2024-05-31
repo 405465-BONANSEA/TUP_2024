@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj": {}
+    "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj": {}
   },
   "projects": {
-    "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj": {
+    "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
+        "projectUniqueName": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
         "projectName": "DependencyInyection",
-        "projectPath": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
+        "projectPath": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
         "packagesPath": "C:\\Users\\M\\.nuget\\packages\\",
-        "outputPath": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\obj\\",
+        "outputPath": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7\\DependencyInyection\\DependencyInyection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\M\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -91,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

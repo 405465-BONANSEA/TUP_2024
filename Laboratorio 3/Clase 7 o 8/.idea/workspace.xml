@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68967f5b-c5df-4275-8e5d-30793456f99b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Clase 7 o 8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/src/main/java/SpringEjemplo/SpringClase/controller/PersonaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/src/main/java/SpringEjemplo/SpringClase/domain/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/src/main/java/SpringEjemplo/SpringClase/repository/IPersonaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/src/main/java/SpringEjemplo/SpringClase/service/IPersonaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringClase/src/main/java/SpringEjemplo/SpringClase/service/implementation/PersonaServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/FileContentIndex/4c72a7c5-9f51-4e14-9fdd-8be1cd40b185.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/FileContentIndex/8f97a59f-0841-4f55-8427-6024dc7a1695.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/FileContentIndex/a301323e-f4be-4194-9cdd-136efaf30e06.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/FileContentIndex/b23084b7-42d5-4bc3-a764-1be10f267250.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/FileContentIndex/ff24e591-1852-466a-bf66-e6c18d3572ae.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/copilot-chat/4e9fd39d/sessions/85b5e0b1-3110-4810-8c85-2f885fcc7a70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/DependencyInyection/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/ProjectEvaluation/dependencyinyection.metadata.v7.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/.vs/ProjectEvaluation/dependencyinyection.projects.v7.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Context/CountryDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Controllers/CountryController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/DependencyInyection.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/DependencyInyection.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/DependencyInyection.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Domain/Country.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Migrations/20240530040644_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Migrations/20240530040644_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Migrations/CountryDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Repository/DbCountryRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Repository/FileCountryRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Repository/ICountryRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/Repository/InMemoryRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Azure.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Azure.Identity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Countries.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/DependencyInyection.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/DependencyInyection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/DependencyInyection.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/DependencyInyection.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/DependencyInyection.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Mono.TextTemplating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.CodeDom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Memory.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/System.Windows.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/countries.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/ContainerCreationResult.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/ContainerId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/ContainerName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/ContainerOperatingSystemFlavor.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/ContainerRunContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/OperatingSystemName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Container/TargetFramework.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/Dependen.42A96D62.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/DependencyInyection.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/ref/DependencyInyection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/refint/DependencyInyection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/staticwebassets/msbuild.build.DependencyInyection.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DependencyInyection.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DependencyInyection.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/DependencyInyection.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/DependencyInyection.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/DependencyInyection.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/DependencyInyection.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion 3/Clase 7/DependencyInyection/DependencyInyection/obj/project.nuget.cache" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2hF92d6sxayvM2QdbqRI0Fn9hTq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SpringClaseApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/INFORMACION NO BORRAR/Documents/GitHub/TUP_2024/Laboratorio 3/Clase 7 o 8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringClaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SpringClase" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringEjemplo.SpringClase.SpringClaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68967f5b-c5df-4275-8e5d-30793456f99b" name="Changes" comment="" />
+      <created>1717178752660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717178752660</updated>
+      <workItem from="1717178753688" duration="7707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
