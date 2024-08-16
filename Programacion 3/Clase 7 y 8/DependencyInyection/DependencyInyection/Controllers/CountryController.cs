@@ -1,4 +1,5 @@
-﻿using DependencyInyection.Repository;
+﻿using DependencyInyection.Domain;
+using DependencyInyection.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DependencyInyection.Controllers
@@ -31,6 +32,22 @@ namespace DependencyInyection.Controllers
 
             var countries = _countryRepository.GetCountries();
             return Ok(countries);
+        }
+
+        [HttpGet("v3")]
+        public async Task<IActionResult> GetV3()
+        {
+            var countries = await _countryRepository.GetCountriesAsync();
+
+            return Ok(countries);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] Country dto)
+        {
+            var response = await _countryRepository.CreateAsync(dto);
+
+            return Ok(response);
         }
     }
 }

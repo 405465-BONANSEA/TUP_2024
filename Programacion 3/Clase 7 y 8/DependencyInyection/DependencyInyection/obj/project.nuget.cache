@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y3UoPQ88nrw=",
+  "dgSpecHash": "dlSxxdHhQBI=",
   "success": true,
-  "projectFilePath": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
+  "projectFilePath": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\M\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

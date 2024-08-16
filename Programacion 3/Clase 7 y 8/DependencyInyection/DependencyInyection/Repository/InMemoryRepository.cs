@@ -4,7 +4,7 @@ namespace DependencyInyection.Repository
 {
     public class InMemoryRepository: ICountryRepository
     {
-        private static List<Country> _countries = new List<Country>()
+        private static List<Country> countries = new List<Country>()
         {
 
                 new Country { Id = "1", Name = "Argentina" },
@@ -13,11 +13,22 @@ namespace DependencyInyection.Repository
                 new Country { Id = "4", Name = "Alemania" },
                 new Country { Id = "5", Name = "Portugal" }
 
-    };
+        };
+
+        public Task<Country> CreateAsync(Country country)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Country> GetCountries()
         {
-            return _countries;
+            return countries;
 
+        }
+
+        public Task<List<Country>> GetCountriesAsync()
+        {
+            return Task.FromResult(countries);
         }
     }
 }

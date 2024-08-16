@@ -1,58 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\",
+  "WorkspaceRootPath": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\downloads\\pcondependencyinyection\\dependencyinyection\\dependencyinyection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\repository\\dbcountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\dbcountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\context\\countrydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\context\\countrydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\repository\\filecountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\filecountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\repository\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\countries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\countries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\repository\\dbcountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\dbcountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\repository\\filecountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\filecountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\repository\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\context\\countrydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\context\\countrydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\repository\\apicountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\apicountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\repository\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\repository\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\dependencyinyection.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\dependencyinyection.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\dependencyinyection\\dependencyinyection.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\dependencyinyection.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|d:\\informacion no borrar\\documents\\github\\tup_2024\\programacion 3\\clase 7 y 8\\dependencyinyection\\dependencyinyection\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{432B7294-8867-4F6C-BB75-844D395D601F}|DependencyInyection\\DependencyInyection.csproj|solutionrelative:dependencyinyection\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,170 +78,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\appsettings.json",
-              "RelativeDocumentMoniker": "DependencyInyection\\appsettings.json",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\appsettings.json",
-              "RelativeToolTip": "DependencyInyection\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T03:41:31.949Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "FileCountryRepository.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\FileCountryRepository.cs",
+              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\FileCountryRepository.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\FileCountryRepository.cs",
+              "RelativeToolTip": "DependencyInyection\\Repository\\FileCountryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:07:25.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Program.cs",
-              "RelativeDocumentMoniker": "DependencyInyection\\Program.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Program.cs",
-              "RelativeToolTip": "DependencyInyection\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAwA0AAABjAAAA",
+              "DocumentIndex": 1,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "DependencyInyection\\Controllers\\CountryController.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "DependencyInyection\\Controllers\\CountryController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:58:12.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T01:31:52.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbCountryRepository.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\DbCountryRepository.cs",
+              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\DbCountryRepository.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\DbCountryRepository.cs",
+              "RelativeToolTip": "DependencyInyection\\Repository\\DbCountryRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T01:18:19.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiCountryRepository.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\ApiCountryRepository.cs",
+              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\ApiCountryRepository.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\ApiCountryRepository.cs",
+              "RelativeToolTip": "DependencyInyection\\Repository\\ApiCountryRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T01:18:10.536Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CountryDbContext.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Context\\CountryDbContext.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Context\\CountryDbContext.cs",
               "RelativeDocumentMoniker": "DependencyInyection\\Context\\CountryDbContext.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Context\\CountryDbContext.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Context\\CountryDbContext.cs",
               "RelativeToolTip": "DependencyInyection\\Context\\CountryDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T19:32:21.035Z",
+              "WhenOpened": "2024-06-06T23:59:36.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICountryRepository.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\ICountryRepository.cs",
+              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\ICountryRepository.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Repository\\ICountryRepository.cs",
+              "RelativeToolTip": "DependencyInyection\\Repository\\ICountryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T00:52:55.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\appsettings.json",
+              "RelativeDocumentMoniker": "DependencyInyection\\appsettings.json",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\appsettings.json",
+              "RelativeToolTip": "DependencyInyection\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T00:44:50.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Program.cs",
+              "RelativeDocumentMoniker": "DependencyInyection\\Program.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Program.cs",
+              "RelativeToolTip": "DependencyInyection\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T00:36:45.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "countries.json",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\countries.json",
-              "RelativeDocumentMoniker": "DependencyInyection\\countries.json",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\countries.json",
-              "RelativeToolTip": "DependencyInyection\\countries.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-23T18:42:19.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileCountryRepository.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\FileCountryRepository.cs",
-              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\FileCountryRepository.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\FileCountryRepository.cs",
-              "RelativeToolTip": "DependencyInyection\\Repository\\FileCountryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:41:57.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "DependencyInyection\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Properties\\launchSettings.json",
-              "RelativeToolTip": "DependencyInyection\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-23T19:43:28.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CountryController.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Controllers\\CountryController.cs",
-              "RelativeDocumentMoniker": "DependencyInyection\\Controllers\\CountryController.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Controllers\\CountryController.cs",
-              "RelativeToolTip": "DependencyInyection\\Controllers\\CountryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:34:51.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICountryRepository.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\ICountryRepository.cs",
-              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\ICountryRepository.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\ICountryRepository.cs",
-              "RelativeToolTip": "DependencyInyection\\Repository\\ICountryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:46:34.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Country.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Domain\\Country.cs",
+              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Domain\\Country.cs",
               "RelativeDocumentMoniker": "DependencyInyection\\Domain\\Country.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Domain\\Country.cs",
+              "ToolTip": "D:\\INFORMACION NO BORRAR\\Documents\\GitHub\\TUP_2024\\Programacion 3\\Clase 7 y 8\\DependencyInyection\\DependencyInyection\\Domain\\Country.cs",
               "RelativeToolTip": "DependencyInyection\\Domain\\Country.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:35:33.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbCountryRepository.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\DbCountryRepository.cs",
-              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\DbCountryRepository.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\DbCountryRepository.cs",
-              "RelativeToolTip": "DependencyInyection\\Repository\\DbCountryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T03:44:57.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InMemoryRepository.cs",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\InMemoryRepository.cs",
-              "RelativeDocumentMoniker": "DependencyInyection\\Repository\\InMemoryRepository.cs",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\Repository\\InMemoryRepository.cs",
-              "RelativeToolTip": "DependencyInyection\\Repository\\InMemoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:36:12.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DependencyInyection.http",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.http",
-              "RelativeDocumentMoniker": "DependencyInyection\\DependencyInyection.http",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.http",
-              "RelativeToolTip": "DependencyInyection\\DependencyInyection.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-23T18:58:04.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DependencyInyection",
-              "DocumentMoniker": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
-              "RelativeDocumentMoniker": "DependencyInyection\\DependencyInyection.csproj",
-              "ToolTip": "D:\\INFORMACION NO BORRAR\\Downloads\\PConDependencyInyection\\DependencyInyection\\DependencyInyection\\DependencyInyection.csproj",
-              "RelativeToolTip": "DependencyInyection\\DependencyInyection.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-23T18:33:52.149Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T23:59:59.665Z"
             }
           ]
         }

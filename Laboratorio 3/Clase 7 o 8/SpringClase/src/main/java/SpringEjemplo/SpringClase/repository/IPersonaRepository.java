@@ -11,6 +11,7 @@ public  interface IPersonaRepository extends JpaRepository<Persona, Long>
 {
 Persona findByName(String name);
 Persona findPersonaById(Long id);
+Persona deletePersonaById(Long id);
 
 
 }

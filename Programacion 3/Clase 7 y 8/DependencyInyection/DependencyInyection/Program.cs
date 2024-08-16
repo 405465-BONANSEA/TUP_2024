@@ -27,8 +27,19 @@ builder.Services.AddSwaggerGen();
 //AHORA CON ESTE EL v2 ME TRAE 6 ITEMS PORQUE AGREGUE UNO DESDE SQL SERVER
 builder.Services.AddTransient<ICountryRepository, DbCountryRepository>(); //una instancia cada vez que es requerida
 
+//*SE AGREGA A LA INYECCION DE DEPENDENCIAS DE APICOUNTRYREPOSITORY (SI QUERO POR API)
+// HOY DIA 06/06/2024 NO FUNCIONA PORQUE EL API DE RESTCOUNTRIES NO ESTA FUNCIONANDO
+//builder.Services.AddSingleton<ICountryRepository, ApiCountryRepository>(); //instancia unica para toda la app
+
+//*INYECCION DEL CLIENTE HTTP
+builder.Services.AddHttpClient("CountryApi", options =>
+{
+    options.BaseAddress = new Uri("https://restcountries.com/v3.1/");
+});
+
 //*INYECCION DEL CONTEXTO DEL DB
-builder.Services.AddDbContext<CountryDbContext>((context) => {
+builder.Services.AddDbContext<CountryDbContext>((context) =>
+{
 
     context.UseSqlServer(builder.Configuration.GetConnectionString("CountryDb"));
 });
@@ -41,6 +52,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+// ESTO ES PARA QUE NO SE BLOQUEE EL CORS
+app.UseCors(options =>
+{
+    options.AllowAnyOrigin();
+    options.AllowAnyHeader();
+});
 
 app.UseHttpsRedirection();
 

@@ -3,6 +3,8 @@ package SpringEjemplo.SpringClase.domain;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
 @Table(name = "Personas")
@@ -28,5 +30,12 @@ public class Persona {
 
     @Column(name = "edad")
     private int age;
+
+    //SPRING LEVANTA DE FORMA ANTICIPADA TODOS LOS DATOS QUE HAY EN LA RELACION
+    @ManyToOne (fetch = FetchType.EAGER)
+    //LAZY LEVANTA LOS DATOS DE LA RELACION CUANDO SE LOS PIDE
+    @JoinColumn (name = "carrera_id")
+    @OnDelete(action = OnDeleteAction.CASCADE) //CUANDO SE BORRA UNA CARRERA SE BORRAN TODAS LAS PERSONAS QUE TIENEN ESA CARRERA
+    private Career career;
 
 }
